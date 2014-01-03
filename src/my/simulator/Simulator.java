@@ -18,7 +18,7 @@ public class Simulator {
 	public String handleMessage(String clientMsg) {
 		System.out.println("FROM CLIENT: " + clientMsg);
 		
-		return "FROM SERVER: " + clientMsg.toUpperCase();
+		return clientMsg.toUpperCase();
 	}
 	
 }
